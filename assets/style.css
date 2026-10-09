@@ -10,7 +10,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--cream);color:var(--ink);
   font-family:'Nunito',Verdana,sans-serif;line-height:1.65}
-a{color:var(--rust-dark)}
+a{color:var(--teal-deep)}
 img{max-width:100%}
 .wrap{max-width:960px;margin:0 auto;padding:0 20px}
 
@@ -19,7 +19,7 @@ img{max-width:100%}
   background:
    repeating-conic-gradient(#26221f 0% 25%, #f6efe0 0% 50%);
   background-size:24px 24px}
-header.site{background:var(--paper);border-bottom:3px solid var(--teal)}
+header.site{background:var(--paper);border-bottom:3px solid var(--teal-deep)}
 .nav{display:flex;align-items:center;justify-content:space-between;padding:10px 0;gap:14px;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
 .brand img{width:88px;height:88px;border-radius:50%;border:2px solid var(--teal-weathered)}
@@ -34,10 +34,10 @@ header.site{background:var(--paper);border-bottom:3px solid var(--teal)}
 .hero h1{font-family:'Playfair Display',Georgia,serif;font-size:2.5rem;line-height:1.15;margin:22px 0 10px;color:var(--teal-deep)}
 .hero h1 .heart{color:var(--rust)}
 .hero p{font-size:1.15rem;color:#5d6a63;max-width:640px;margin:0 auto 22px}
-.btn{display:inline-block;background:var(--rust);color:#fff;text-decoration:none;
+.btn{display:inline-block;background:var(--teal-deep);color:#fff;text-decoration:none;
   padding:12px 28px;border-radius:999px;font-size:1.05rem;font-weight:700;border:none;cursor:pointer;
-  box-shadow:0 3px 0 var(--rust-dark)}
-.btn:hover{background:var(--rust-dark)}
+  box-shadow:0 3px 0 #081F24}
+.btn:hover{background:var(--teal)}
 .btn.secondary{background:var(--teal);box-shadow:0 3px 0 var(--teal-deep)}
 .btn.secondary:hover{background:var(--teal-deep)}
 .btn.gold{background:var(--sun);color:var(--teal-deep);box-shadow:0 3px 0 #B97A0B}
@@ -84,4 +84,7 @@ footer.site .heart{color:var(--rust);filter:brightness(1.5)}
 .freebie .btn:hover{background:#FFB93E}
 .tagline{font-size:1.3rem !important;font-weight:700;color:var(--teal-deep) !important;max-width:680px !important}
 .aboutshops{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin:20px 0}
+.center-post{text-align:center}
+.center-post .card{text-align:center}
+.center-post ul{display:inline-block;text-align:left}
 @media (max-width:560px){ .hero h1{font-size:1.9rem} .wordmark{font-size:1.9rem} .brand img{width:64px;height:64px} }
