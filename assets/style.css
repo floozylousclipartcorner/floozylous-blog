@@ -1,43 +1,76 @@
+/* Floozy Lou's — farmhouse brand theme
+   Palette sampled from Miranda's logo & banners: deep teal script ink,
+   weathered teal wood, rust hearts, sunflower gold, cream distressed wood. */
 :root{
-  --cream:#FFF9F2; --ink:#2B2118; --muted:#6F6156;
-  --coral:#E4572E; --coral-dark:#C7431F; --teal:#2A9D8F; --sun:#F2B441;
-  --card:#FFFFFF; --line:#F0E2D4; --radius:16px;
+  --cream:#FAF3E2; --paper:#FFFDF6; --ink:#22302B;
+  --teal-deep:#10333B; --teal:#2E7D78; --teal-weathered:#5FA39A;
+  --rust:#BC4B26; --rust-dark:#9C3A1A; --sun:#F0A41C;
+  --sage:#7FA08C; --line:#EADFC6; --radius:16px;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--cream);color:var(--ink);
-  font-family:Georgia,'Times New Roman',serif;line-height:1.6}
-a{color:var(--coral-dark)}
-header.site{background:var(--card);border-bottom:2px solid var(--line)}
-.wrap{max-width:920px;margin:0 auto;padding:0 20px}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
-.logo{font-size:1.45rem;font-weight:bold;text-decoration:none;color:var(--ink)}
-.logo span{color:var(--coral)}
-.nav nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-size:1rem}
-.nav nav a:hover{color:var(--coral-dark)}
-.hero{padding:56px 0 28px;text-align:center}
-.hero h1{font-size:2.6rem;line-height:1.15;margin:0 0 12px}
-.hero p{font-size:1.2rem;color:var(--muted);max-width:620px;margin:0 auto 24px}
-.btn{display:inline-block;background:var(--coral);color:#fff;text-decoration:none;
-  padding:12px 26px;border-radius:999px;font-size:1.05rem;border:none;cursor:pointer}
-.btn:hover{background:var(--coral-dark)}
-.btn.secondary{background:var(--teal)}
+  font-family:'Nunito',Verdana,sans-serif;line-height:1.65}
+a{color:var(--rust-dark)}
+img{max-width:100%}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+
+/* buffalo-check ribbon under the header, straight off her banners */
+.checkstrip{height:12px;opacity:.9;
+  background:
+   repeating-conic-gradient(#26221f 0% 25%, #f6efe0 0% 50%);
+  background-size:24px 24px}
+header.site{background:var(--paper);border-bottom:3px solid var(--teal)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 0;gap:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:58px;height:58px;border-radius:50%;border:2px solid var(--teal-weathered)}
+.wordmark{font-family:'Dancing Script',cursive;font-size:2rem;line-height:1;color:var(--teal-deep)}
+.wordmark small{display:block;font-family:'Nunito',sans-serif;font-size:.62rem;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--rust);font-weight:700;margin-top:3px}
+.nav nav a{margin-left:18px;text-decoration:none;color:var(--teal-deep);font-weight:700;font-size:.98rem}
+.nav nav a:hover{color:var(--rust)}
+
+.hero{padding:26px 0 8px;text-align:center}
+.hero .banner{border-radius:18px;border:3px solid #fff;box-shadow:0 8px 28px rgba(16,51,59,.18);width:100%}
+.hero h1{font-family:'Playfair Display',Georgia,serif;font-size:2.5rem;line-height:1.15;margin:22px 0 10px;color:var(--teal-deep)}
+.hero h1 .heart{color:var(--rust)}
+.hero p{font-size:1.15rem;color:#5d6a63;max-width:640px;margin:0 auto 22px}
+.btn{display:inline-block;background:var(--rust);color:#fff;text-decoration:none;
+  padding:12px 28px;border-radius:999px;font-size:1.05rem;font-weight:700;border:none;cursor:pointer;
+  box-shadow:0 3px 0 var(--rust-dark)}
+.btn:hover{background:var(--rust-dark)}
+.btn.secondary{background:var(--teal);box-shadow:0 3px 0 var(--teal-deep)}
+.btn.secondary:hover{background:var(--teal-deep)}
+
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;padding:26px 0}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
-.card h3{margin-top:0;font-size:1.25rem}
-.card p{color:var(--muted)}
-h2.section{font-size:1.8rem;margin:34px 0 6px}
+.card{background:var(--paper);border:1px solid var(--line);border-top:5px solid var(--teal);
+  border-radius:var(--radius);padding:22px;overflow:hidden}
+.card.accent-rust{border-top-color:var(--rust)}
+.card.accent-sun{border-top-color:var(--sun)}
+.card.accent-sage{border-top-color:var(--sage)}
+.card h3{margin-top:0;font-family:'Playfair Display',Georgia,serif;font-size:1.3rem;color:var(--teal-deep)}
+.card p{color:#5d6a63}
+.card .cardimg{margin:-22px -22px 16px;width:calc(100% + 44px);max-width:none;display:block}
+h2.section{font-family:'Playfair Display',Georgia,serif;font-size:1.8rem;margin:30px 0 6px;color:var(--teal-deep)}
+h2.section .heart{color:var(--rust);font-size:1.3rem}
 .post-list{display:grid;gap:18px;padding:12px 0 30px}
-.post-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
-.post-card h3{margin:4px 0 8px;font-size:1.4rem}
-.post-card h3 a{text-decoration:none;color:var(--ink)}
-.post-card h3 a:hover{color:var(--coral-dark)}
-.meta{color:var(--muted);font-size:.92rem;text-transform:uppercase;letter-spacing:.04em}
-.post-card p{color:var(--muted);margin:6px 0 0}
-article.post{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+.post-card{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--sun);
+  border-radius:var(--radius);padding:22px}
+.post-card h3{margin:4px 0 8px;font-family:'Playfair Display',Georgia,serif;font-size:1.4rem}
+.post-card h3 a{text-decoration:none;color:var(--teal-deep)}
+.post-card h3 a:hover{color:var(--rust)}
+.meta{color:var(--rust);font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.post-card p{color:#5d6a63;margin:6px 0 0}
+.shopband{margin:10px 0 34px;text-align:center}
+.shopband img{border-radius:18px;border:3px solid #fff;box-shadow:0 8px 28px rgba(16,51,59,.18);width:100%}
+.shopband a{display:block}
+article.post{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
   padding:34px;margin:30px 0}
-article.post h1{font-size:2.1rem;line-height:1.2;margin:6px 0 10px}
-article.post p{font-size:1.08rem}
-footer.site{border-top:2px solid var(--line);margin-top:40px;padding:26px 0 40px;
-  color:var(--muted);text-align:center;font-size:.95rem}
-.tag{display:inline-block;background:#FDEEE6;color:var(--coral-dark);border-radius:999px;
-  padding:2px 12px;font-size:.85rem;margin-right:6px}
+article.post h1{font-family:'Playfair Display',Georgia,serif;font-size:2.1rem;line-height:1.2;margin:6px 0 10px;color:var(--teal-deep)}
+article.post p{font-size:1.06rem}
+.tag{display:inline-block;background:#FDEBD7;color:var(--rust-dark);border-radius:999px;
+  padding:2px 12px;font-size:.85rem;font-weight:700;margin-right:6px}
+footer.site{background:var(--teal-deep);margin-top:44px;padding:28px 0 38px;
+  color:#F3EAD3;text-align:center;font-size:.95rem}
+footer.site a{color:var(--sun);text-decoration:none;font-weight:700}
+footer.site .heart{color:var(--rust);filter:brightness(1.5)}
+@media (max-width:560px){ .hero h1{font-size:1.9rem} .wordmark{font-size:1.6rem} }
