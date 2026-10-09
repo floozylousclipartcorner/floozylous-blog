@@ -29,7 +29,7 @@ header.site{background:var(--paper);border-bottom:3px solid var(--teal-deep)}
 .nav nav a{margin-left:18px;text-decoration:none;color:var(--teal-deep);font-weight:700;font-size:.98rem}
 .nav nav a:hover{color:var(--rust)}
 
-.hero{padding:26px 0 8px;text-align:center}
+.hero{padding:14px 0 8px;text-align:center}
 .hero .banner{border-radius:18px;border:3px solid #fff;box-shadow:0 8px 28px rgba(16,54,65,.18);width:100%}
 .hero h1{font-family:'Playfair Display',Georgia,serif;font-size:2.5rem;line-height:1.15;margin:22px 0 10px;color:var(--teal-deep)}
 .hero h1 .heart{color:var(--rust)}
@@ -62,7 +62,7 @@ h2.section .heart{color:var(--rust);font-size:1.3rem}
 .post-card h3 a:hover{color:var(--rust)}
 .meta{color:var(--rust);font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
 .post-card p{color:#4c5652;margin:6px 0 0}
-.shopband{margin:10px 0 34px;text-align:center}
+.shopband{margin:2px 0 6px;text-align:center}
 .shopband img{border-radius:18px;border:3px solid #fff;box-shadow:0 8px 28px rgba(16,54,65,.18);width:100%}
 .shopband a{display:block}
 article.post{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
