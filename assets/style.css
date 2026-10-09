@@ -29,9 +29,9 @@ header.site{background:var(--paper);border-bottom:3px solid var(--teal-deep)}
 .nav nav a{margin-left:18px;text-decoration:none;color:var(--teal-deep);font-weight:700;font-size:.98rem}
 .nav nav a:hover{color:var(--rust)}
 
-.hero{padding:14px 0 8px;text-align:center}
+.hero{padding:8px 0 8px;text-align:center}
 .hero .banner{border-radius:18px;border:3px solid #fff;box-shadow:0 8px 28px rgba(16,54,65,.18);width:100%}
-.hero h1{font-family:'Playfair Display',Georgia,serif;font-size:2.5rem;line-height:1.15;margin:22px 0 10px;color:var(--teal-deep)}
+.hero h1{font-family:'Playfair Display',Georgia,serif;font-size:2.5rem;line-height:1.15;margin:6px 0 10px;color:var(--teal-deep)}
 .hero h1 .heart{color:var(--rust)}
 .hero p{font-size:1.15rem;color:#4c5652;max-width:640px;margin:0 auto 22px}
 .btn{display:inline-block;background:var(--teal-deep);color:#fff;text-decoration:none;
@@ -62,7 +62,7 @@ h2.section .heart{color:var(--rust);font-size:1.3rem}
 .post-card h3 a:hover{color:var(--rust)}
 .meta{color:var(--rust);font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
 .post-card p{color:#4c5652;margin:6px 0 0}
-.shopband{margin:2px 0 6px;text-align:center}
+.shopband{margin:2px 0 2px;text-align:center}
 .shopband img{border-radius:18px;border:3px solid #fff;box-shadow:0 8px 28px rgba(16,54,65,.18);width:100%}
 .shopband a{display:block}
 article.post{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
@@ -88,7 +88,7 @@ footer.site .heart{color:#CEDFD7}
 .hero .banner.slim{max-width:680px;margin:0 auto;display:block}
 .aboutshops .card{display:flex;flex-direction:column}
 .aboutshops .card p:last-child{margin-top:auto;padding-top:12px}
-.aboutshops .card .btn{display:block;text-align:center}
+.aboutshops .card .btn{display:flex;align-items:center;justify-content:center;text-align:center;min-height:80px}
 .shopspot{background:#DEEDEF;border:2px solid var(--teal-weathered);border-radius:var(--radius);
   padding:28px;text-align:center;margin:6px 0 30px}
 .shopspot h2{font-family:'Playfair Display',Georgia,serif;margin:0 0 8px;font-size:1.7rem;color:var(--teal-deep)}
