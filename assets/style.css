@@ -88,6 +88,7 @@ footer.site .heart{color:#CEDFD7}
 .hero .banner.slim{max-width:680px;margin:0 auto;display:block}
 .aboutshops .card{display:flex;flex-direction:column}
 .aboutshops .card p:last-child{margin-top:auto;padding-top:12px}
+.aboutshops .card .btn{display:block;text-align:center}
 .shopspot{background:#DEEDEF;border:2px solid var(--teal-weathered);border-radius:var(--radius);
   padding:28px;text-align:center;margin:6px 0 30px}
 .shopspot h2{font-family:'Playfair Display',Georgia,serif;margin:0 0 8px;font-size:1.7rem;color:var(--teal-deep)}
