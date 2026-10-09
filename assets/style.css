@@ -85,6 +85,9 @@ footer.site .heart{color:#CEDFD7}
 .tagline{font-size:1.3rem !important;font-weight:700;color:var(--teal-deep) !important;max-width:680px !important}
 .aboutshops{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin:20px 0}
 .usage{font-weight:700;color:var(--teal-deep);font-size:.95rem}
+.hero .banner.slim{max-width:680px;margin:0 auto;display:block}
+.aboutshops .card{display:flex;flex-direction:column}
+.aboutshops .card p:last-child{margin-top:auto;padding-top:12px}
 .center-post{text-align:center}
 .center-post .card{text-align:center}
 .center-post ul{display:inline-block;text-align:left}
