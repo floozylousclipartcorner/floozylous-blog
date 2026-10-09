@@ -40,6 +40,8 @@ header.site{background:var(--paper);border-bottom:3px solid var(--teal)}
 .btn:hover{background:var(--rust-dark)}
 .btn.secondary{background:var(--teal);box-shadow:0 3px 0 var(--teal-deep)}
 .btn.secondary:hover{background:var(--teal-deep)}
+.btn.gold{background:var(--sun);color:var(--teal-deep);box-shadow:0 3px 0 #B97A0B}
+.btn.gold:hover{background:#FFB93E}
 
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;padding:26px 0}
 .card{background:var(--paper);border:1px solid var(--line);border-top:5px solid var(--teal);
