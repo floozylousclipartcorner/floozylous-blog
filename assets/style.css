@@ -105,3 +105,6 @@ footer.site .heart{color:#CEDFD7}
 
 /* whole-card links: no underlines */
 a.card{text-decoration:none;color:inherit}
+
+.freebie .duo>div{display:flex;flex-direction:column}
+.freebie .duo .btn{margin-top:auto;align-self:center}
