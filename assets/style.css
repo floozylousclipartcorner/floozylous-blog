@@ -78,7 +78,7 @@ footer.site .heart{color:#CEDFD7}
 .freebie{background:var(--teal-deep);border-radius:var(--radius);color:#FFFFFF;
   padding:30px 28px;margin:6px 0 30px;text-align:center;border:3px solid var(--teal-weathered)}
 .freebie h2{font-family:'Playfair Display',Georgia,serif;margin:0 0 8px;font-size:1.7rem;color:#fff}
-.freebie h2 .heart{color:var(--sun)}
+.freebie h2 .heart{color:#fff}
 .freebie p{max-width:560px;margin:0 auto 18px;color:#DEEDEF}
 .freebie .btn{background:#FFFFFF;color:var(--teal-deep);box-shadow:0 3px 0 #CEDFD7}
 .freebie .btn:hover{background:#DEEDEF}
