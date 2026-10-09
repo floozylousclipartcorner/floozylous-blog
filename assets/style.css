@@ -102,3 +102,6 @@ footer.site .heart{color:#CEDFD7}
 .center-post .card{text-align:center}
 .center-post ul{display:inline-block;text-align:left}
 @media (max-width:560px){ .hero h1{font-size:1.9rem} .wordmark{font-size:1.9rem} .brand img{width:64px;height:64px} }
+
+/* whole-card links: no underlines */
+a.card{text-decoration:none;color:inherit}
