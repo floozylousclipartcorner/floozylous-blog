@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://floozylous.floozylousclipartcorner.workers.dev/sitemap.xml
+Sitemap: https://www.floozylousclipartcorner.com/sitemap.xml
