@@ -111,3 +111,6 @@ a.card{text-decoration:none;color:inherit}
 
 .freebie .duo>div{display:flex;flex-direction:column}
 .freebie .duo .btn{margin-top:auto;align-self:center}
+
+/* shop card faces (About / Explore My Shops) */
+.card h3 .shopface{width:46px;height:46px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid var(--teal)}
