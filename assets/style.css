@@ -114,3 +114,26 @@ a.card{text-decoration:none;color:inherit}
 
 /* shop card faces (About / Explore My Shops) */
 .card h3 .shopface{width:46px;height:46px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid var(--teal)}
+
+/* blog index post rows: small thumbnail left, title + excerpt right
+   (scoped to .post-rows so the homepage keeps its .post-card list) */
+.post-rows{display:grid;gap:18px;padding:12px 0 30px}
+a.post-row{display:flex;gap:18px;align-items:center;background:var(--paper);border:1px solid var(--line);
+  border-left:5px solid var(--sun);border-radius:var(--radius);padding:16px;text-decoration:none;color:inherit}
+a.post-row:hover{border-color:var(--teal-weathered);box-shadow:0 4px 14px rgba(16,54,65,.10)}
+.post-row img{width:180px;height:135px;object-fit:cover;border-radius:10px;flex:0 0 auto}
+.post-row .pad{min-width:0}
+.post-row h3{margin:4px 0 6px;font-family:'Playfair Display',Georgia,serif;font-size:1.35rem;line-height:1.25;color:var(--teal-deep)}
+.post-row p{color:#4c5652;margin:0 0 6px}
+.post-row .more{color:var(--teal);font-weight:700}
+@media (max-width:560px){
+  a.post-row{gap:12px;padding:12px;align-items:flex-start}
+  .post-row img{width:104px;height:104px}
+  .post-row h3{font-size:1.08rem}
+  .post-row p{font-size:.92rem}
+}
+
+/* back-to-blog link at the foot of each post */
+.backtoblog{text-align:center;margin:2px 0 34px;font-size:1.05rem;font-weight:700}
+.backtoblog a{color:var(--teal-deep);text-decoration:none}
+.backtoblog a:hover{color:var(--rust);text-decoration:underline}
