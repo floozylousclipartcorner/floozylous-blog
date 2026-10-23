@@ -115,19 +115,19 @@ a.card{text-decoration:none;color:inherit}
 /* shop card faces (About / Explore My Shops) */
 .card h3 .shopface{width:46px;height:46px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid var(--teal)}
 
-/* blog index post rows: graphic on top, title + excerpt below
+/* blog index post rows: graphic on the left, title + excerpt beside it
    (scoped to .post-rows so the homepage keeps its .post-card list) */
 .post-rows{display:grid;gap:18px;padding:12px 0 30px}
-a.post-row{display:flex;flex-direction:column;gap:14px;align-items:stretch;background:var(--paper);border:1px solid var(--line);
+a.post-row{display:flex;flex-direction:row;gap:18px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);
   border-left:5px solid var(--sun);border-radius:var(--radius);padding:16px;text-decoration:none;color:inherit}
 a.post-row:hover{border-color:var(--teal-weathered);box-shadow:0 4px 14px rgba(16,54,65,.10)}
-.post-row img{width:100%;height:auto;object-fit:cover;border-radius:10px;flex:0 0 auto}
+.post-row img{width:270px;height:203px;object-fit:cover;border-radius:10px;flex:0 0 auto}
 .post-row .pad{min-width:0}
 .post-row h3{margin:4px 0 6px;font-family:'Playfair Display',Georgia,serif;font-size:1.35rem;line-height:1.25;color:var(--teal-deep)}
 .post-row p{color:#4c5652;margin:0 0 6px}
 .post-row .more{color:var(--teal);font-weight:700}
-@media (max-width:560px){
-  a.post-row{gap:10px;padding:12px;align-items:stretch}
+@media (max-width:620px){
+  a.post-row{flex-direction:column;gap:10px;padding:12px;align-items:stretch}
   .post-row img{width:100%;height:auto}
   .post-row h3{font-size:1.08rem}
   .post-row p{font-size:.92rem}
