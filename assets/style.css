@@ -137,3 +137,6 @@ a.post-row:hover{border-color:var(--teal-weathered);box-shadow:0 4px 14px rgba(1
 .backtoblog{text-align:center;margin:2px 0 34px;font-size:1.05rem;font-weight:700}
 .backtoblog a{color:var(--teal-deep);text-decoration:none}
 .backtoblog a:hover{color:var(--rust);text-decoration:underline}
+
+/* featured drops: shop link line inside a card */
+.card .more{color:var(--teal);font-weight:700}
